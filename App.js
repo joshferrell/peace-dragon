@@ -1,9 +1,10 @@
 import React from 'react';
-import Expo, { Components } from 'expo';
+import Expo, { AppLoading } from 'expo';
 import { Container, Content, Header, Body, Title } from 'native-base';
 import { Platform } from 'react-native';
-import * as firebase from 'firebase';
+import * as firebase from "firebase";
 import TileCard from './Cards/card.comp';
+import config from './Config/index';
 
 export default class App extends React.Component {
 
@@ -21,12 +22,14 @@ export default class App extends React.Component {
             'Roboto_medium': require('native-base/Fonts/Roboto_medium.ttf')
         });
 
+      firebase.initializeApp(config.firebase);
+
         this.setState({ isReady: true });
     }
 
     render() {
         if (!this.state.isReady) {
-            return <Components.AppLoading/>;
+            return <AppLoading />;
         } else {
             return (
                 <Container>

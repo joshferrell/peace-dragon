@@ -1953,6 +1953,10 @@ detective@^4.3.1:
     acorn "^4.0.3"
     defined "^1.0.0"
 
+devenv@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/devenv/-/devenv-1.0.1.tgz#aca7ce3282cb3c37a1694ecb83635f866d2a6bcf"
+
 diff@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.2.0.tgz#c9ce393a4b7cbd0b058a725c93df299027868ff9"
@@ -4502,6 +4506,10 @@ react-native-keyboard-aware-scroll-view@0.2.7:
 "react-native-maps@https://github.com/expo/react-native-maps/archive/v0.12.2-exp.1.tar.gz":
   version "0.12.2"
   resolved "https://github.com/expo/react-native-maps/archive/v0.12.2-exp.1.tar.gz#1984bfe5a8a341dd3b44ad565cfcd1b25a5c2b03"
+
+react-native-palette@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/react-native-palette/-/react-native-palette-0.3.1.tgz#c16d5ed5028f94cdeebde0e890a8334490ca9ea4"
 
 react-native-safe-module@^1.1.0:
   version "1.1.1"
