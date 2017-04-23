@@ -1,4 +1,5 @@
 {
-  "name": "PeaceDeck",
-  "displayName": "PeaceDeck"
+  "expo": {
+    "sdkVersion": "16.0.0"
+  }
 }
